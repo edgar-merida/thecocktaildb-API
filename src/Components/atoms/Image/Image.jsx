@@ -8,6 +8,7 @@ const Image = (props) => {
 Image.propTypes = {
     src: PropTypes.string.isRequired,
     alt: PropTypes.string,
+    onClick: PropTypes.func
 };
 
 export default Image;

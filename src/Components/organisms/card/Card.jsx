@@ -18,8 +18,8 @@ const Card = ({ data, getId }) => {
             {data.map((item, index) => (
 
                 <div key={index}>
-                    <Image className={"card__img"} src={item.strDrinkThumb} alt={item.strDrink} onClick={() => { click(item.idDrink) }}/>
-                    <Title onClick={() => { click(item.idDrink) }} className={"card__title"} title={item.strDrink}/>
+                    <Image className="card__img" src={item.strDrinkThumb} alt={item.strDrink} onClick={() => { click(item.idDrink) }}/>
+                    <Title onClick={() => { click(item.idDrink) }} className="card__title" title={item.strDrink}/>
                     <br />
                     <br />
                 </div>
