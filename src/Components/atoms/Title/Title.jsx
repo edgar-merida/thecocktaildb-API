@@ -7,9 +7,8 @@ const Title = (props) => {
 
 Title.propTypes = {
     title: PropTypes.string.isRequired,
-    onClick: PropTypes.func
-
-   
+    onClick: PropTypes.func,
+    className: PropTypes.string
 };
 
 export default Title;

@@ -20,7 +20,6 @@ const Card = ({ data, getId }) => {
                 <div key={index}>
                     <Image src={item.strDrinkThumb} alt={item.strDrink} onClick={() => { click(item.idDrink) }}/>
                     <Title onclick={() => {click(item.idDrink)}} className={"card__title"} title={item.strDrink}/>
-                    {/* <h1 onClick={() => { click(item.idDrink) }} className="card__title">{item.strDrink}</h1> */}
                     <br />
                     <br />
                 </div>

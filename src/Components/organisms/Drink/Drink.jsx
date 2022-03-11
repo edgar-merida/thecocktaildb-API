@@ -1,5 +1,7 @@
 import React from 'react'
 import Button from '../../atoms/Buttons/Button'
+import Title from '../../atoms/Title/Title'
+
 require('./Drink.css')
 
 const Drink = ({ data, getQuery }) => {
@@ -12,7 +14,8 @@ const Drink = ({ data, getQuery }) => {
         <div className="drink">
             {data.map((item, index) => (
                 <div key={index}>
-                    <h1 className="drink__title">{item.strDrink}</h1>
+                    <Title className='drink__title' title={item.strDrink} />
+                    {/* <h1 className="drink__title">{item.strDrink}</h1> */}
                     <img className="drink__img" src={item.strDrinkThumb} alt={item.strDrink} />
                 </div>
             ))}
