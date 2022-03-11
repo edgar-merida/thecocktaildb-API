@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 const Image = (props) => {
-    return <img className="card__img" src={props.src} alt={props.alt} onClick={props.onClick}></img>;
+    return <img className={props.className} src={props.src} alt={props.alt} onClick={props.onClick}></img>;
 };
 
 Image.propTypes = {
