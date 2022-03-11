@@ -1,0 +1,7 @@
+@import "../../../Variables/Variables.scss";
+
+.a__button {
+    @include genericButtonStyles($blackColor, 20px);
+    cursor: pointer;
+    font-weight: bold;
+}

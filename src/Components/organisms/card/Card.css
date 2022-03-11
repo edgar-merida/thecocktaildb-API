@@ -1,0 +1,38 @@
+.card {
+  padding: 0.5em;
+  margin: 0.5em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  background-color: #424c5a;
+  color: black;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.card__img {
+  padding: 1rem;
+  background-color: #424c5a;
+  color: black;
+  height: 200px;
+  width: 200px;
+  cursor: pointer;
+  border-radius: 32px;
+  border: black dashed 2px;
+}
+
+.card__title {
+  color: #fdfeff;
+  font-size: 120%;
+  cursor: pointer;
+}
+/*# sourceMappingURL=Card.css.map */

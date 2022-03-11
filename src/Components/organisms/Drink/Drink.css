@@ -1,0 +1,47 @@
+.drink {
+  padding: 0.5em;
+  margin: 0.5em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  background-color: #768eb1e3;
+  color: #292e35;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+}
+
+.drink__img {
+  padding: 0.5rem;
+  margin-left: 8rem;
+  color: black;
+  height: 400px;
+  width: 400px;
+  border-radius: 32px;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.drink__title {
+  color: #292e35;
+  font-size: 235%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+/*# sourceMappingURL=Drink.css.map */

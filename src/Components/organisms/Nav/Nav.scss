@@ -1,0 +1,28 @@
+@import "../../../Variables/Variables.scss";
+
+.navBar {
+    padding: 0.5em;
+    margin: 0.5em;
+    width: 98%;
+    height: 60px;
+    background-color: $blackColor;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+  &__link {
+    margin-left: 20px;
+     }
+  &__link a{ 
+    color: darkgreen;
+  }
+}
+
+.navBar h1 {
+    font-family: $fontFamilyNav;
+    color: $color;
+    font-size: 33px;
+    margin: 10px;
+    padding-left: 1em;
+    font-weight: bold; 
+}

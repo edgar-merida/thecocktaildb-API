@@ -1,0 +1,30 @@
+.card {
+    padding: 0.5em;
+    margin: 0.5em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    background-color: #424c5a;
+    color: black;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+
+    &__img {
+        padding: 1rem;
+        background-color: #424c5a;
+        color: black;
+        height: 200px;
+        width: 200px;
+        cursor: pointer;
+        border-radius: 32px;
+        border: black dashed 2px   
+    }
+
+    &__title{
+        color: rgb(253, 254, 255);
+        font-size: 120%;
+        cursor: pointer;
+    }
+}
