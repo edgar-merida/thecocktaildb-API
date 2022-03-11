@@ -1,0 +1,29 @@
+UTILIZANDO ATOMIC DESIGN, SASS Y BEM
+La aplicación que se desea es la de un manual de recetas, donde mediante una API pública se obtendrá la información 
+(https://www.thecocktaildb.com/api.php). Se requiere que se creen las siguientes pantallas:
+1. Menú de bebidas: en esta pantalla se deben de listar las bebidas disponibles de tipo cocktail con su respectivo 
+nombre e imagen, y al seleccionar una de estas se debe de dirigir a la pantalla de detalle de bebida.
+2. Detalle de bebida: en esta pantalla se debe de mostrar la información detallada de la bebida seleccionada, 
+incluyendo su imagen, nombre, fecha de actualización, ingredientes, medidas e instrucciones de preparación.
+El diseño de la aplicación queda a discreción de la persona que cree la aplicación.
+1. Listado de bebidas
+www.thecocktaildb.com/api/json/v1/1/filter.php?c=Cocktail
+Donde: a. strDrink: nombre de la bebida.
+b. strDrinkThumb: enlace de la imagen/fotografía de la bebida.
+c. idDrink: identificador interno de la bebida a utilizar para obtener los detalles de la misma.
+2. Detalle de bebida https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i=17834
+Parámetros:
+i: identificador de la bebida a buscar, obtenido en el servicio de listado de bebidas.
+Donde (solo campos a utilizar):
+a. strDrink: nombre de la bebida.
+b. strDrinkThumb: enlace de la imagen/fotografía de la bebida.
+c. strInstructions: detalles para la preparación del cocktail, de preferencia utilizar la versión en español strInstructionsES, 
+si esta no está disponible utilizar la versión en inglés strInstructions.
+d. strIngredient: ingredientes necesarios para preparar la bebida, se incluyen N atributos strIngredient, 
+agregando al final del nombre el correlativo de este (strIngredient1, strIngredient2... strIngredient15).
+e. strMeasure: medida necesaria de cada ingrediente, se incluye la misma cantidad de medidas que en el caso de los 
+ingredientes y cada posición equivale a la del ingrediente (ej: strMeasure1 -> medida de strIngredient1).
+f. dateModified: fecha en la que fue actualizada la receta.
+
+
+
