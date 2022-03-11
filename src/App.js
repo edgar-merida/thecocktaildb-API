@@ -1,6 +1,4 @@
 import "./Styles/App.css";
-// import Home from "./Components/templates/Home/Home";
-// import Button from "./Components/atoms/Buttons/Button";
 import Card from "./Components/organisms/card/Card";
 import { useState, useEffect } from "react";
 import axios from 'axios'

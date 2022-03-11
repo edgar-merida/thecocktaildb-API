@@ -1,4 +1,5 @@
 import React from "react";
+import Title from '../../atoms/Title/Title'
 
 require("./Nav.css");
 
@@ -6,7 +7,7 @@ const Nav = (props) => {
     return (
         <div className="navBar">
             <div>
-                <h1>{props.text}</h1>
+                <Title title={props.text}/>
             </div>
             <div className="navBar__link">
                <a href={'https://www.thecocktaildb.com/api.php'}><h5>API library</h5> </a>
