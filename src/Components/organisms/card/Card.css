@@ -6,8 +6,8 @@ body {
   margin-top: 15px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-columns: auto auto auto auto;
+      grid-template-columns: auto auto auto auto;
   background-color: #424c5a;
   color: black;
   -webkit-box-pack: center;
@@ -33,7 +33,7 @@ body {
 
 .card__title {
   color: #fdfeff;
-  font-size: 18px;
+  font-size: 100%;
   cursor: pointer;
 }
 /*# sourceMappingURL=Card.css.map */
