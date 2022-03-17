@@ -1,10 +1,6 @@
 .drink {
-   // padding: 0.5em;
-   // margin: 0.5em;
     display: grid;
-    //grid-template-columns: repeat(2, 1fr);
     grid-template-columns: auto 30%;
-   // gap: 1rem;
     background-color: #768eb1e3;
     color: #292e35;
     justify-content: center;
@@ -13,9 +9,7 @@
     font-weight: bold;
     
     &__img {
-       // padding: 0.5rem;
         margin: 1%;
-      //  color: black;
         height: 90%;
         width: 90%;
         border: solid black;
@@ -34,7 +28,6 @@
 
     }
     &__instructions{
-        //margin-right: 5px;
         text-justify: start;
         font-size: auto;
     }

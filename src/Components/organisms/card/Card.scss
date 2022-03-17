@@ -3,13 +3,9 @@ body{
 }
 
 .card {
-   // padding: 0.5em;
-   // margin: 0.5em;
     margin-top: 15px;
     display: grid;
-    //grid-template-columns: repeat(4, 1fr);
     grid-template-columns:auto auto auto;
-   // gap: 1rem;
     background-color: #424c5a;
     color: black;
     justify-content: center;
@@ -21,7 +17,6 @@ body{
         padding: 7px;
         background-color: #424c5a;
         color: black;
-      //  height: 55%;
         width: 55%;
         cursor: pointer;
         border-radius: 5%;

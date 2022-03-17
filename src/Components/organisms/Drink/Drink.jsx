@@ -22,7 +22,6 @@ const Drink = ({ data, getQuery }) => {
             {data.map((item, index) => (
                 <div key={index}>
                     <Title className='drink__title' title={item.strDrink} />
-                    <br />
                     <h2>Ingredients: </h2>
                     <h3>{item.strIngredient1 ? (item.strIngredient1 + ' :  ' + item.strMeasure1) : (null)}</h3>
                     <h3>{item.strIngredient2 ? (item.strIngredient2 + ' :  ' + item.strMeasure2) : (null)}</h3>
@@ -41,13 +40,10 @@ const Drink = ({ data, getQuery }) => {
                     <h3>{item.strIngredient15 ? (item.strIngredient15 + ' :  ' + item.strMeasure15) : (null)}</h3>
 
                     <div className='drink__instructions'>
-                        <br></br>
                         <h2>Instructions: </h2>
                         <p><h3>{item.strInstructionsES ? (item.strInstructionsES) : (item.strInstructions)}</h3></p>
-                        <br></br>
                         <h2>{item.dateModified ? ('Modification date: ') : ('')}</h2>
                         <h3> {item.dateModified}</h3>
-                        <br></br>
                         <Button e={() => (click('filter.php?c=Cocktail'))} text='Back'/>
                     </div>
                 </div>
