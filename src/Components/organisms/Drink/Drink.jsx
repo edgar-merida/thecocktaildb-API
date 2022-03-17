@@ -3,6 +3,8 @@ import Button from '../../atoms/Buttons/Button'
 import Title from '../../atoms/Title/Title'
 import Image from '../../atoms/Image/Image'
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 require('./Drink.css')
 
 const Drink = ({ data, getQuery }) => {
@@ -23,27 +25,27 @@ const Drink = ({ data, getQuery }) => {
                 <div key={index}>
                     <Title className='drink__title' title={item.strDrink} />
                     <h2>Ingredients: </h2>
-                    <h3>{item.strIngredient1 ? (item.strIngredient1 + ' :  ' + item.strMeasure1) : (null)}</h3>
-                    <h3>{item.strIngredient2 ? (item.strIngredient2 + ' :  ' + item.strMeasure2) : (null)}</h3>
-                    <h3>{item.strIngredient3 ? (item.strIngredient3 + ' :  ' + item.strMeasure3) : (null)}</h3>
-                    <h3>{item.strIngredient4 ? (item.strIngredient4 + ' :  ' + item.strMeasure4) : (null)}</h3>
-                    <h3>{item.strIngredient5 ? (item.strIngredient5 + ' :  ' + item.strMeasure5) : (null)}</h3>
-                    <h3>{item.strIngredient6 ? (item.strIngredient6 + ' :  ' + item.strMeasure6) : (null)}</h3>
-                    <h3>{item.strIngredient7 ? (item.strIngredient7 + ' :  ' + item.strMeasure7) : (null)}</h3>
-                    <h3>{item.strIngredient8 ? (item.strIngredient8 + ' :  ' + item.strMeasure8) : (null)}</h3>
-                    <h3>{item.strIngredient9 ? (item.strIngredient9 + ' :  ' + item.strMeasure9) : (null)}</h3>
-                    <h3>{item.strIngredient10 ? (item.strIngredient10 + ' :  ' + item.strMeasure10) : (null)}</h3>
-                    <h3>{item.strIngredient11 ? (item.strIngredient11 + ' :  ' + item.strMeasure11) : (null)}</h3>
-                    <h3>{item.strIngredient12 ? (item.strIngredient12 + ' :  ' + item.strMeasure12) : (null)}</h3>
-                    <h3>{item.strIngredient13 ? (item.strIngredient13 + ' :  ' + item.strMeasure13) : (null)}</h3>
-                    <h3>{item.strIngredient14 ? (item.strIngredient14 + ' :  ' + item.strMeasure14) : (null)}</h3>
-                    <h3>{item.strIngredient15 ? (item.strIngredient15 + ' :  ' + item.strMeasure15) : (null)}</h3>
+                    <h4>{item.strIngredient1 ? (item.strIngredient1 + ' :  ' + item.strMeasure1) : (null)}</h4>
+                    <h4>{item.strIngredient2 ? (item.strIngredient2 + ' :  ' + item.strMeasure2) : (null)}</h4>
+                    <h4>{item.strIngredient3 ? (item.strIngredient3 + ' :  ' + item.strMeasure3) : (null)}</h4>
+                    <h4>{item.strIngredient4 ? (item.strIngredient4 + ' :  ' + item.strMeasure4) : (null)}</h4>
+                    <h4>{item.strIngredient5 ? (item.strIngredient5 + ' :  ' + item.strMeasure5) : (null)}</h4>
+                    <h4>{item.strIngredient6 ? (item.strIngredient6 + ' :  ' + item.strMeasure6) : (null)}</h4>
+                    <h4>{item.strIngredient7 ? (item.strIngredient7 + ' :  ' + item.strMeasure7) : (null)}</h4>
+                    <h4>{item.strIngredient8 ? (item.strIngredient8 + ' :  ' + item.strMeasure8) : (null)}</h4>
+                    <h4>{item.strIngredient9 ? (item.strIngredient9 + ' :  ' + item.strMeasure9) : (null)}</h4>
+                    <h4>{item.strIngredient10 ? (item.strIngredient10 + ' :  ' + item.strMeasure10) : (null)}</h4>
+                    <h4>{item.strIngredient11 ? (item.strIngredient11 + ' :  ' + item.strMeasure11) : (null)}</h4>
+                    <h4>{item.strIngredient12 ? (item.strIngredient12 + ' :  ' + item.strMeasure12) : (null)}</h4>
+                    <h4>{item.strIngredient13 ? (item.strIngredient13 + ' :  ' + item.strMeasure13) : (null)}</h4>
+                    <h4>{item.strIngredient14 ? (item.strIngredient14 + ' :  ' + item.strMeasure14) : (null)}</h4>
+                    <h4>{item.strIngredient15 ? (item.strIngredient15 + ' :  ' + item.strMeasure15) : (null)}</h4>
 
                     <div className='drink__instructions'>
                         <h2>Instructions: </h2>
-                        <p><h3>{item.strInstructionsES ? (item.strInstructionsES) : (item.strInstructions)}</h3></p>
+                        <p><h4>{item.strInstructionsES ? (item.strInstructionsES) : (item.strInstructions)}</h4></p>
                         <h2>{item.dateModified ? ('Modification date: ') : ('')}</h2>
-                        <h3> {item.dateModified}</h3>
+                        <h4> {item.dateModified}</h4>
                         <Button e={() => (click('filter.php?c=Cocktail'))} text='Back'/>
                     </div>
                 </div>

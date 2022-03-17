@@ -1,7 +1,11 @@
 import React from "react";
 import Image from '../../atoms/Image/Image'
 import Title from '../../atoms/Title/Title'
-require("./Card.css");
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+require('./Card.css');
+
 
 
 const Card = ({ data, getId }) => {
