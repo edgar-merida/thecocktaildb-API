@@ -6,8 +6,8 @@ body {
   margin-top: 15px;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto auto auto;
-      grid-template-columns: auto auto auto auto;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
   background-color: #424c5a;
   color: black;
   -webkit-box-pack: center;
