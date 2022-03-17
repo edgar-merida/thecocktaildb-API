@@ -3,7 +3,7 @@
    // margin: 0.5em;
     display: grid;
     //grid-template-columns: repeat(2, 1fr);
-    grid-template-columns: auto auto;
+    grid-template-columns: auto 30%;
    // gap: 1rem;
     background-color: #768eb1e3;
     color: #292e35;
@@ -14,11 +14,11 @@
     
     &__img {
        // padding: 0.5rem;
-      //  margin-left: 5px;
+        margin: 1%;
       //  color: black;
-        height: 95%;
-        width: 95%;
-        //border-radius: 32px;
+        height: 90%;
+        width: 90%;
+        border: solid black;
         text-align: center;
         justify-content: center;
         align-content: center;
@@ -27,14 +27,15 @@
 
     &__title{
         color: #292e35;
-        font-size: 235%;
+        font-size: auto;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-weight: bold;
         text-align: start;
 
     }
     &__instructions{
-        margin-right: 5px;
-        justify-content: start;
+        //margin-right: 5px;
+        text-justify: start;
+        font-size: auto;
     }
 }

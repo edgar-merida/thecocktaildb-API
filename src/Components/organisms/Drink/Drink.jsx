@@ -43,7 +43,7 @@ const Drink = ({ data, getQuery }) => {
                     <div className='drink__instructions'>
                         <br></br>
                         <h2>Instructions: </h2>
-                        <h3>{item.strInstructionsES ? (item.strInstructionsES) : (item.strInstructions)}</h3>
+                        <p><h3>{item.strInstructionsES ? (item.strInstructionsES) : (item.strInstructions)}</h3></p>
                         <br></br>
                         <h2>{item.dateModified ? ('Modification date: ') : ('')}</h2>
                         <h3> {item.dateModified}</h3>

@@ -1,8 +1,8 @@
 .drink {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto;
-      grid-template-columns: auto auto;
+  -ms-grid-columns: auto 30%;
+      grid-template-columns: auto 30%;
   background-color: #768eb1e3;
   color: #292e35;
   -webkit-box-pack: center;
@@ -17,8 +17,10 @@
 }
 
 .drink__img {
-  height: 95%;
-  width: 95%;
+  margin: 1%;
+  height: 90%;
+  width: 90%;
+  border: solid black;
   text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -32,16 +34,14 @@
 
 .drink__title {
   color: #292e35;
-  font-size: 235%;
+  font-size: auto;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bold;
   text-align: start;
 }
 
 .drink__instructions {
-  margin-right: 5px;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
+  text-justify: start;
+  font-size: auto;
 }
 /*# sourceMappingURL=Drink.css.map */
