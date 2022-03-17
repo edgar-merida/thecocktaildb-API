@@ -8,6 +8,10 @@
   font-size: 20px;
   cursor: pointer;
   font-weight: bold;
-  size: auto;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  width: 15%;
+  font-size: 90%;
 }
 /*# sourceMappingURL=Button.css.map */

@@ -6,6 +6,7 @@ body {
   margin-top: 15px;
   display: -ms-grid;
   display: grid;
+  position: absolute;
   -ms-grid-columns: auto auto auto;
       grid-template-columns: auto auto auto;
   background-color: #424c5a;
@@ -22,7 +23,6 @@ body {
 }
 
 .card__img {
-  padding: 7px;
   background-color: #424c5a;
   color: black;
   width: 55%;

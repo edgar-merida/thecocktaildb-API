@@ -4,5 +4,9 @@
     @include genericButtonStyles($blackColor, 20px);
     cursor: pointer;
     font-weight: bold;
-    size: auto;
+    text-align: center;
+    align-content: center;
+    width: 15%;
+    font-size: 90%;
+   
 }

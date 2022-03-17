@@ -5,6 +5,7 @@ body{
 .card {
     margin-top: 15px;
     display: grid;
+    position: absolute;
     grid-template-columns:auto auto auto;
     background-color: #424c5a;
     color: black;
@@ -14,7 +15,6 @@ body{
     text-align: center;
 
     &__img {
-        padding: 7px;
         background-color: #424c5a;
         color: black;
         width: 55%;
