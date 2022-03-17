@@ -3,8 +3,8 @@
   margin: 0.5em;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
+  -ms-grid-columns: 50% auto;
+      grid-template-columns: 50% auto;
   gap: 1rem;
   background-color: #768eb1e3;
   color: #292e35;
@@ -20,12 +20,7 @@
 }
 
 .drink__img {
-  padding: 0.5rem;
-  margin-left: 8rem;
-  color: black;
-  height: 400px;
-  width: 400px;
-  border-radius: 32px;
+  width: 75%;
   text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -42,7 +37,7 @@
   font-size: 235%;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bold;
-  text-align: center;
+  text-align: start;
 }
 
 .drink__instructions {

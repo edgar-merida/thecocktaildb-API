@@ -2,7 +2,8 @@
     padding: 0.5em;
     margin: 0.5em;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    //grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 50% auto;
     gap: 1rem;
     background-color: #768eb1e3;
     color: #292e35;
@@ -13,12 +14,12 @@
     
 
     &__img {
-        padding: 0.5rem;
-        margin-left: 8rem;
-        color: black;
-        height: 400px;
-        width: 400px;
-        border-radius: 32px;
+       // padding: 0.5rem;
+       // margin-left: 8rem;
+      //  color: black;
+      //  height: auto;
+        width: 75%;
+        //border-radius: 32px;
         text-align: center;
         justify-content: center;
         align-content: center;
@@ -30,7 +31,7 @@
         font-size: 235%;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-weight: bold;
-        text-align: center;
+        text-align: start;
     }
     &__instructions{
         margin-right: 35px;

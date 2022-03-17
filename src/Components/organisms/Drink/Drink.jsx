@@ -15,13 +15,14 @@ const Drink = ({ data, getQuery }) => {
         <div className="drink">
             {data.map((item, index) => (
                 <div key={index}>
-                    <Title className='drink__title' title={item.strDrink} />
+                    {/* <Title className='drink__title' title={item.strDrink} /> */}
                     <Image className="drink__img" src={item.strDrinkThumb} alt={item.strDrink} />
                 </div>
             ))}
             {data.map((item, index) => (
                 <div key={index}>
                     <br />
+                    <Title className='drink__title' title={item.strDrink} />
                     <br />
                     <h2>Ingredients: </h2>
                     <h3>{item.strIngredient1 ? (item.strIngredient1 + ' :  ' + item.strMeasure1) : (null)}</h3>
