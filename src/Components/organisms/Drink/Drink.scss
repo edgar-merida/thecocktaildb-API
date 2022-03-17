@@ -1,10 +1,10 @@
 .drink {
-    padding: 0.5em;
-    margin: 0.5em;
+   // padding: 0.5em;
+   // margin: 0.5em;
     display: grid;
     //grid-template-columns: repeat(2, 1fr);
-    grid-template-columns: 50% auto;
-    gap: 1rem;
+    grid-template-columns: auto auto;
+   // gap: 1rem;
     background-color: #768eb1e3;
     color: #292e35;
     justify-content: center;
@@ -12,13 +12,12 @@
     align-items: center;
     font-weight: bold;
     
-
     &__img {
        // padding: 0.5rem;
-       // margin-left: 8rem;
+      //  margin-left: 5px;
       //  color: black;
-      //  height: auto;
-        width: 75%;
+        height: 95%;
+        width: 95%;
         //border-radius: 32px;
         text-align: center;
         justify-content: center;
@@ -32,8 +31,10 @@
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-weight: bold;
         text-align: start;
+
     }
     &__instructions{
-        margin-right: 35px;
+        margin-right: 5px;
+        justify-content: start;
     }
 }
