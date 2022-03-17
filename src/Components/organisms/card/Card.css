@@ -1,11 +1,13 @@
+body {
+  background-color: #424c5a;
+}
+
 .card {
-  padding: 0.5em;
-  margin: 0.5em;
+  margin-top: 15px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[4];
       grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
   background-color: #424c5a;
   color: black;
   -webkit-box-pack: center;
@@ -20,11 +22,10 @@
 }
 
 .card__img {
-  padding: 1rem;
+  padding: 5px;
   background-color: #424c5a;
   color: black;
-  height: 200px;
-  width: 200px;
+  width: 55%;
   cursor: pointer;
   border-radius: 32px;
   border: black dashed 2px;
@@ -32,7 +33,7 @@
 
 .card__title {
   color: #fdfeff;
-  font-size: 120%;
+  font-size: 18px;
   cursor: pointer;
 }
 /*# sourceMappingURL=Card.css.map */
