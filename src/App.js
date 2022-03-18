@@ -25,7 +25,7 @@ function App() {
             {data.length === 1 ?
                 (
                     <>
-                        <Nav text={"DRINK DETAILS"} />
+                        <Nav text={"DRINK DETAILS"} getApi={(api) => setQuery(api)} />
                         <Drink data={data} getQuery={(q) => setQuery(q)} />
                         {console.log(data)}
                     </>
@@ -33,7 +33,7 @@ function App() {
                 :
                 (
                     <>
-                        <Nav text={"COCKTAILS MENU"} />
+                        <Nav text={"COCKTAILS MENU"} getApi={(api) => setQuery(api)} />
                         <Card data={data} getId={(e) => setQuery(e)} />
                     </>
                 )

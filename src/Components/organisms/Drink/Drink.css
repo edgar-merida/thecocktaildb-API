@@ -45,25 +45,22 @@
 
 .drink__title {
   color: #292e35;
-  font-size: auto;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-weight: bold;
 }
 
 @media only screen and (min-width: 768px) {
   .drink__title {
     text-align: start;
+    font-weight: bold;
   }
 }
 
 @media only screen and (max-width: 767px) {
   .drink__title {
     text-align: center;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
-}
-
-.drink__instructions {
-  font-size: auto;
 }
 
 @media only screen and (min-width: 768px) {
@@ -75,6 +72,7 @@
 @media only screen and (max-width: 767px) {
   .drink__instructions {
     text-justify: center;
+    font-size: smaller;
   }
 }
 
@@ -105,6 +103,7 @@
         -ms-flex-align: center;
             align-items: center;
     text-justify: center;
+    font-size: smaller;
   }
 }
 /*# sourceMappingURL=Drink.css.map */

@@ -21,6 +21,11 @@
   color: darkgreen;
 }
 
+.navBar__formulario {
+  position: absolute;
+  right: 8vw;
+}
+
 .navBar h1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #f1e5e5;

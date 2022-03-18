@@ -21,29 +21,29 @@
         justify-content: center;
         align-content: center;
         align-items: center;
-        
     }
 
     &__title{
         color: #292e35;
-        font-size: auto;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-weight: bold;
         @media only screen and (min-width: 768px) {
             text-align: start;
+            font-weight: bold;
             }
         @media only screen and (max-width: 767px) {
             text-align: center;
+            font-weight: bolder;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
             }
     }
 
     &__instructions{
-        font-size: auto;
         @media only screen and (min-width: 768px) {
             text-justify: start;
             }
         @media only screen and (max-width: 767px) {
             text-justify: center;
+            font-size: smaller;
             }
     }
     &__text{
@@ -60,6 +60,7 @@
             align-content: center;
             align-items: center;
             text-justify: center;
+            font-size: smaller;
             }
     }
 }
