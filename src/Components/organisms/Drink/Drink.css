@@ -48,11 +48,63 @@
   font-size: auto;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: bold;
-  text-align: start;
+}
+
+@media only screen and (min-width: 768px) {
+  .drink__title {
+    text-align: start;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .drink__title {
+    text-align: center;
+  }
 }
 
 .drink__instructions {
-  text-justify: start;
   font-size: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .drink__instructions {
+    text-justify: start;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .drink__instructions {
+    text-justify: center;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .drink__text {
+    text-align: start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -ms-flex-line-pack: start;
+        align-content: start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    text-justify: start;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .drink__text {
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-justify: center;
+  }
 }
 /*# sourceMappingURL=Drink.css.map */

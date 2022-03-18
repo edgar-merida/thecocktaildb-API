@@ -10,7 +10,7 @@ const Nav = (props) => {
                 <Title title={props.text}/>
             </div>
             <div className="navBar__link">
-               <a href='https://www.thecocktaildb.com/api.php'><h5>API library</h5> </a>
+               <a href='https://www.thecocktaildb.com/api.php'><h5>API source</h5> </a>
             </div>
         </div>
     );

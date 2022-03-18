@@ -2,13 +2,17 @@ body {
   background-color: #424c5a;
 }
 
+@media only screen and (max-width: 767px) {
+  body {
+    text-align: center;
+  }
+}
+
 .card {
   margin-top: 15px;
   display: -ms-grid;
   display: grid;
   position: absolute;
-  -ms-grid-columns: auto auto auto;
-      grid-template-columns: auto auto auto;
   background-color: #424c5a;
   color: black;
   -webkit-box-pack: center;
@@ -22,6 +26,20 @@ body {
   text-align: center;
 }
 
+@media only screen and (min-width: 768px) {
+  .card {
+    -ms-grid-columns: auto auto auto auto;
+        grid-template-columns: auto auto auto auto;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .card {
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+  }
+}
+
 .card__img {
   background-color: #424c5a;
   color: black;
@@ -29,6 +47,12 @@ body {
   cursor: pointer;
   border-radius: 5%;
   border: black dashed 2px;
+}
+
+@media only screen and (min-width: 768px) {
+  .card__img {
+    padding: 10px;
+  }
 }
 
 .card__title {

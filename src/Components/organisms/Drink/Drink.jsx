@@ -22,7 +22,7 @@ const Drink = ({ data, getQuery }) => {
                 </div>
             ))}
             {data.map((item, index) => (
-                <div key={index}>
+                <div className='drink__text' key={index}>
                     <Title className='drink__title' title={item.strDrink} />
                     <h2>Ingredients: </h2>
                     <h4>{item.strIngredient1 ? (item.strIngredient1 + ' :  ' + item.strMeasure1) : (null)}</h4>

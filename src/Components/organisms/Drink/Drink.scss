@@ -1,4 +1,3 @@
-
 .drink {
     display: grid;
     @media only screen and (min-width: 768px) {
@@ -22,6 +21,7 @@
         justify-content: center;
         align-content: center;
         align-items: center;
+        
     }
 
     &__title{
@@ -29,11 +29,37 @@
         font-size: auto;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-weight: bold;
-        text-align: start;
+        @media only screen and (min-width: 768px) {
+            text-align: start;
+            }
+        @media only screen and (max-width: 767px) {
+            text-align: center;
+            }
     }
 
     &__instructions{
-        text-justify: start;
         font-size: auto;
+        @media only screen and (min-width: 768px) {
+            text-justify: start;
+            }
+        @media only screen and (max-width: 767px) {
+            text-justify: center;
+            }
+    }
+    &__text{
+        @media only screen and (min-width: 768px) {
+            text-align: start;
+            justify-content: start;
+            align-content: start;
+            align-items: start;
+            text-justify: start;
+            }
+        @media only screen and (max-width: 767px) {
+            text-align: center;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            text-justify: center;
+            }
     }
 }
