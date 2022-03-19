@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/thecocktaildb-API/static/css/main.50997595.css",
-    "main.js": "/thecocktaildb-API/static/js/main.ea6b4921.js",
+    "main.css": "/thecocktaildb-API/static/css/main.6e68ab0c.css",
+    "main.js": "/thecocktaildb-API/static/js/main.b678e032.js",
     "index.html": "/thecocktaildb-API/index.html",
-    "main.50997595.css.map": "/thecocktaildb-API/static/css/main.50997595.css.map",
-    "main.ea6b4921.js.map": "/thecocktaildb-API/static/js/main.ea6b4921.js.map"
+    "main.6e68ab0c.css.map": "/thecocktaildb-API/static/css/main.6e68ab0c.css.map",
+    "main.b678e032.js.map": "/thecocktaildb-API/static/js/main.b678e032.js.map"
   },
   "entrypoints": [
-    "static/css/main.50997595.css",
-    "static/js/main.ea6b4921.js"
+    "static/css/main.6e68ab0c.css",
+    "static/js/main.b678e032.js"
   ]
 }
