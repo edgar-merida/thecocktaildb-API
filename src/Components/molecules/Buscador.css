@@ -1,0 +1,27 @@
+.formulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.formulario__input {
+  margin: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+  .formulario__input {
+    position: absolute;
+    right: 1vw;
+    margin: 7px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .formulario__button {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Buscador.css.map */

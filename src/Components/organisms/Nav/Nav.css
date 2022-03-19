@@ -13,6 +13,12 @@
           align-items: center;
 }
 
+@media only screen and (max-width: 767px) {
+  .navBar {
+    font-size: smaller;
+  }
+}
+
 .navBar__link {
   margin-left: 20px;
 }
@@ -21,17 +27,36 @@
   color: darkgreen;
 }
 
+@media only screen and (max-width: 767px) {
+  .navBar__link a {
+    display: none;
+  }
+}
+
 .navBar__formulario {
   position: absolute;
-  right: 8vw;
+  right: 4vw;
 }
 
 .navBar h1 {
+  text-justify: start;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: #f1e5e5;
   font-size: 33px;
   margin: 10px;
   padding-left: 10px;
   font-weight: bold;
+}
+
+@media only screen and (min-width: 768px) {
+  .navBar h1 {
+    font-size: 33px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .navBar h1 {
+    font-size: 18px;
+  }
 }
 /*# sourceMappingURL=Nav.css.map */

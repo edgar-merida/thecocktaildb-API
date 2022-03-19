@@ -1,0 +1,19 @@
+.formulario{
+    display: flex;
+    align-items: center;
+    &__input{
+        margin: 5px;
+        @media only screen and (max-width: 767px) { 
+            position: absolute;
+            right:1vw;
+            margin: 7px !important;   
+            }
+    }
+    &__button{
+        @media only screen and (max-width: 767px) {     
+            display: none;
+            }
+    }
+}
+
+

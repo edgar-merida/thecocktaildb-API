@@ -13,7 +13,7 @@ const Card = ({ data, getId }) => {
 
     const click = (e) => {
         getId('lookup.php?i=' + e);
-        console.log(e);
+        //console.log(e);
     }
 
 
